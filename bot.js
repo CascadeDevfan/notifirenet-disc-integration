@@ -13,8 +13,14 @@ client.on("ready", () =>{
  });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'nfo!help') {
+    	message.reply('Documentation for the OnyxWorks Discord Integration can be found at: ');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'nfo!support') {
+    	message.reply('A link to the bot support server can be found at: https://discord.gg/sEBjsau');
   	}
 });
 
