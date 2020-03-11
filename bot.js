@@ -14,13 +14,19 @@ client.on("ready", () =>{
 
 client.on('message', message => {
     if (message.content === 'nfo!help') {
-    	message.reply('Documentation for the OnyxWorks Discord Integration can be found at: ');
+    	message.reply('documentation for the OnyxWorks Discord Integration can be found at: ');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'nfo!support') {
-    	message.reply('A link to the bot support server can be found at: https://discord.gg/sEBjsau');
+    	message.reply('a link to the bot support server can be found at: https://discord.gg/sEBjsau');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'nfo!botrev') {
+    	message.reply('the bot is currently running NFREV0.1.2 Alpha.');
   	}
 });
 
