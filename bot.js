@@ -23,6 +23,11 @@ client.on('message', message => {
     	message.reply('a link to the bot support server can be found at: https://discord.gg/sEBjsau');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'nfo!alarms') {
+    	message.reply('Currently under development!');
+  	}
+});
 
 client.on('message', message => {
     if (message.content === 'nfo!botrev') {
