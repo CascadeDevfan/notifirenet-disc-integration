@@ -35,7 +35,7 @@ client.on('message', message => {
   	}
 });
 client.on('message', message => {
-    if (message.content === 'nfo!botrev') {
+    if (message.content === 'nfo!say') {
     	message.reply(message.content);
   	}
 });
