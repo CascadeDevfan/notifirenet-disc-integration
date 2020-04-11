@@ -34,11 +34,6 @@ client.on('message', message => {
     	message.reply('the bot is currently running NFREV0.1.2 Alpha.');
   	}
 });
-client.on('message', message => {
-    if (message.content === 'nfo!say') {
-    	message.reply(message.content);
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
