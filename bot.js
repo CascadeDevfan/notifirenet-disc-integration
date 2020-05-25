@@ -35,5 +35,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'southfloridaroadgeek') {
+    	message.reply('https://tenor.com/view/delete-this-what-can-isay-except-gun-maui-moana-gif-15583312');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
