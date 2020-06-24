@@ -1,7 +1,9 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
 
-client.on("ready", () =>{
+
+//const Discord = require('discord.js');
+//const client = new Discord.Client();
+
+//client.on("ready", () =>{
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setPresence({
         status: "online",  //You can show online, idle....
@@ -31,13 +33,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'nfo!botrev') {
-    	message.reply('the bot is currently running NFREV0.1.2 Alpha.');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'southfloridaroadgeek') {
-    	message.reply('https://tenor.com/view/delete-this-what-can-isay-except-gun-maui-moana-gif-15583312');
+    	message('**Bot running Version 0.2');
   	}
 });
 
