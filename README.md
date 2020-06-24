@@ -1,2 +1,2 @@
-# notifirenet-disc-integration
-Noti-Fire-Net Discord Bot Respository
+# BloxCommand RM1
+BloxCommand RM1 Code
